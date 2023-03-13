@@ -8,8 +8,7 @@ class JogosController extends Controller
 {
     public function index()
     {
-        $nome = 'Samuel';
-        return view('jogos.index', ['nome'=>$nome]);
+        return view('jogos.index');
     }
 }
 ?>
